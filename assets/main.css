@@ -1,0 +1,72 @@
+body {
+	background: black;
+	margin-left: 7vw;
+	margin-right: 7vw;
+	margin-bottom: 7vw;
+	margin-top: 7vw;
+}
+
+.lines {
+	left: 0;
+	max-width: 24%;
+	display: inline-block;
+	position: relative;
+	mix-blend-mode: difference;
+	filter: invert(1);
+	padding-bottom: 4vw;
+}
+
+
+.start {
+	top: 0;
+	font-size: 26px;
+	color: white;
+	text-align: right;
+	 font-style: italic;
+	  text-decoration: underline;
+	  position: absolute;
+	  right: 0;
+}
+
+.start:hover {
+	cursor: pointer;
+}
+
+.part {
+	color: white;
+	font-family: 'Judson', serif;
+	max-width: 40%;
+	display: inline-block;
+	position: relative;
+	text-align:left;
+	margin-bottom: 5vw;
+	position: absolute;
+	margin-left: 7vw;
+	margin-top: 5vw;
+	font-size: 21px;
+}
+
+
+.title {
+	font-family: 'Cinzel', serif;
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: underline;
+	position: relative;
+	max-width: 20%
+	z-index: -2;
+	margin: 5vw;
+}
+
+.title:hover {
+		cursor: pointer;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
