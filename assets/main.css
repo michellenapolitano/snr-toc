@@ -46,6 +46,14 @@ body {
 	font-size: 21px;
 }
 
+.type3 {
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	line-height: 2.7;
+	font-size: 65px;
+	font-weight: 2px;
+}
 
 .title {
 	font-family: 'Cinzel', serif;
